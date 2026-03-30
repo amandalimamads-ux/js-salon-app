@@ -75,4 +75,6 @@ Abrir frontend/index.html en el navegador
 
 ## 📌 Notas
 
-Proyecto básico orientado a demostrar integración entre frontend, backend y base de datos.
+Aplicación web para la gestión de reservas en una peluquería, que permite a los usuarios seleccionar servicios, elegir fecha y hora disponibles y confirmar citas en tiempo real.
+
+Incluye integración completa entre frontend, backend y base de datos.
