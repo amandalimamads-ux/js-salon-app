@@ -22,6 +22,29 @@ Aplicación web simple para gestión de citas en una peluquería.
 
 ---
 
+## 🖼️ Capturas de la aplicación
+
+### 🏠 Pantalla principal
+Vista inicial del sistema donde el usuario puede acceder a la reserva.
+
+![Home](frontend/img/home.png)
+
+---
+
+### 📅 Selección de fecha y hora
+El usuario puede elegir el día y la hora disponible dentro del horario permitido (09:00 - 18:00).
+
+![Fecha y hora](frontend/img/reserva-fecha-hora.png)
+
+---
+
+### 💾 Confirmación de reserva
+Interfaz donde el usuario guarda o cancela la cita.
+
+![Confirmación](frontend/img/botones.png)
+
+---
+
 ## ⚙️ Funcionalidades
 
 - Ver servicios disponibles
