@@ -18,7 +18,9 @@ Aplicación web simple para gestión de citas en una peluquería.
 
 ## 🎨 Prototipo (Figma)
 
-👉 https://www.figma.com/proto/4BXtBHur72CoU4b0GIhFjK/Js-Salon-App--Copy-?node-id=0-1&t=AV7HvfyZ3i44Htwc-1
+Diseño inicial de la interfaz de usuario utilizado como base para el desarrollo de la aplicación.
+
+👉 [Ver prototipo en Figma](https://www.figma.com/proto/4BXtBHur72CoU4b0GIhFjK/Js-Salon-App--Copy-?node-id=0-1&t=AV7HvfyZ3i44Htwc-1)
 
 ---
 
