@@ -12,7 +12,7 @@ Aplicación web simple para gestión de citas en una peluquería.
 
 ## 🎥 Demo
 
-👉 https://youtu.be/MZp5hl3hNuw
+👉 https://youtu.be/UlUgEFQVC80
 
 ---
 
