@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 40px;
+}
+
+/* IZQUIERDA */
+.left {
+  width: 260px;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.sub {
+  color: gray;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+/* DERECHA */
+.right {
+  width: 350px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* CITAS */
+.cita {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* BOTONES */
+button {
+  padding: 10px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.secondary {
+  background: gray;
+  margin-top: 10px;
+}
+
+.delete {
+  background: #e74c3c;
+  width: auto;
+  padding: 6px 10px;
+}
+
+/* INPUTS */
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* OCULTAR */
+.hidden {
+  display: none;
+}

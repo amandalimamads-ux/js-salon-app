@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Salon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- IZQUIERDA -->
+  <div class="left">
+    <img src="img/logo.png" class="logo" alt="Logo JS Salon">
+
+    <h1>JS Salon</h1>
+    <p class="sub">Bienvenido</p>
+
+    <div class="card">
+      <h3>Horario</h3>
+      <p>Lunes a Sábado</p>
+      <p>09:00 - 18:00</p>
+    </div>
+
+    <button onclick="mostrar('servicios')">Reservar cita</button>
+  </div>
+
+  <!-- DERECHA -->
+  <div class="right">
+
+    <!-- INICIO -->
+    <div id="inicio">
+      <h2>Mis citas</h2>
+      <div id="lista-citas"></div>
+    </div>
+
+    <!-- SERVICIOS -->
+    <div id="servicios" class="hidden">
+  <h2>Selecciona un servicio</h2>
+
+  <div id="lista-servicios"></div>
+</div>
+
+    <!-- RESERVA -->
+    <div id="reserva" class="hidden">
+      <h2>Reservar cita</h2>
+     <p><strong>Servicio:</strong> <span id="servicio-mostrado"></span></p>
+      <!-- oculto: no editable -->
+      <input type="hidden" id="servicio">
+
+      <input type="date" id="fecha">
+      <input type="time" id="hora" min="09:00" max="18:00" step="1800" value="09:00">
+      <button onclick="agendar()">Guardar</button>
+      <button class="secondary" onclick="mostrar('inicio')">Volver</button>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
