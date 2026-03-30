@@ -1,82 +1,88 @@
-# 💇‍♀️ JS Salon - Sistema de Reservas
+### 💇‍♀️ JS Salon - Appointment System
 
-Aplicación web simple para gestión de citas en una peluquería.
+Web application for managing appointments in a beauty salon.
 
-## 🚀 Tecnologías
-
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js (Express)
-- Base de datos: MySQL
+📌 Note: This README is written in English for accessibility. The application interface is in Spanish (original language).
 
 ---
 
-## 🎥 Demo
+### 🚀 Technologies
+	•	Frontend: HTML, CSS, JavaScript
+	•	Backend: Node.js (Express)
+	•	Database: MySQL
+
+---    
+
+### 🎥 Demo
 
 👉 https://youtu.be/UlUgEFQVC80
 
 ---
 
-## 🎨 Prototipo (Figma)
+### 🎨 Prototype (Figma)
 
-Diseño inicial de la interfaz de usuario utilizado como base para el desarrollo de la aplicación.
+Initial UI design used as a base for the application development.
 
-👉 [Ver prototipo en Figma](https://www.figma.com/proto/4BXtBHur72CoU4b0GIhFjK/Js-Salon-App--Copy-?node-id=0-1&t=AV7HvfyZ3i44Htwc-1)
+👉 View interactive prototype (https://www.figma.com/proto/4BXtBHur72CoU4b0GIhFjK/Js-Salon-App--Copy-?node-id=0-1&t=AV7HvfyZ3i44Htwc-1)
 
 ---
 
-## 🖼️ Capturas de la aplicación
+### 🖼️ Application Screenshots
 
-### 🏠 Pantalla principal
-Vista inicial del sistema donde el usuario puede acceder a la reserva.
+### 🏠 Home Screen
+Initial view where users can access the reservation flow.
 
 ![Home](frontend/img/home.png)
 
 ---
 
-### 📅 Selección de fecha y hora
-El usuario puede elegir el día y la hora disponible dentro del horario permitido (09:00 - 18:00).
+### 📅 Date and Time Selection
+Users can select an available date and time within the allowed.
+schedule (09:00- 18:00).
 
-![Fecha y hora](frontend/img/reserva-fecha-hora.png)
-
----
-
-### 💾 Confirmación de reserva
-Interfaz donde el usuario guarda o cancela la cita.
-
-![Confirmación](frontend/img/botones.png)
+![Date and time](frontend/img/reserva-fecha-hora.png)
 
 ---
 
-## ⚙️ Funcionalidades
+### 💾 Booking Confirmation 
+Interface where users confirm or cancel their appointment.
 
-- Ver servicios disponibles
-- Crear una cita
-- Eliminar una cita
-- Validación de horario (09:00 - 18:00)
+![Confirmation](frontend/img/botones.png)
 
 ---
 
-## 📂 Estructura del proyecto
----
+## ⚙️ Features
 
-## 🛠️ Instalación
-
-1. Clonar el repositorio
-2. Instalar dependencias
-3. Configurar base de datos
-
-- Crear base de datos en MySQL
-- Ejecutar database/schema.sql
-
-4. Ejecutar backend
-5. Abrir frontend
-
-Abrir frontend/index.html en el navegador
+- View available services
+- Create an appointment
+- Delete an appointment
+- Schedule validation (09:00 - 18:00)
 
 ---
 
-## 📌 Notas
+## 📂 Project Structure
 
-Aplicación web para la gestión de reservas en una peluquería, que permite a los usuarios seleccionar servicios, elegir fecha y hora disponibles y confirmar citas en tiempo real.
+---
 
-Incluye integración completa entre frontend, backend y base de datos.
+## 🛠️ Installation
+
+1. Clone the repository
+2. Install dependencies
+3. Set up the database
+
+- Create a MySQL database
+- Run database/schema.sql
+
+4. Run the backend
+5. Open the frontend
+
+Open frontend/index.html in your browser
+
+---
+
+## 📌 Notes
+
+This project demonstrates the implementation of a functional reservation system, including service selection, date and time scheduling, and real-time data handling.
+
+It showcases full integration between frontend, backend, and database.
+:::
